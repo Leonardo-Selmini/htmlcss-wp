@@ -37,7 +37,7 @@
   background-color:#ffebbb;
 } 
 
-.debug #aside-left {
+.debug aside {
   height: 500px;
   background-color:#ffebbb;
 }
@@ -46,11 +46,6 @@
   height: 500px;
   background-color:#ffebbb;
 } */
-
-.debug #aside-right {
-  height: 500px;
-  background-color:#ffebbb;
-}
 
 .debug footer {
   height: 50px;
@@ -135,7 +130,7 @@ section span {
 }
 
 /* main - aside left */
-#aside-left {
+aside {
   width: 15%;
   float: left;
 }
@@ -172,9 +167,14 @@ article {
 }
 
 /* main - aside right */
-#aside-right {
-  width: 15%;
-  float: left;
+.photo-right {
+  height: 160px;
+  width: 100%;
+  background-image: url(img/img-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
 }
 
 /* footer */
