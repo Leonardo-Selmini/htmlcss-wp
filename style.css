@@ -1,0 +1,99 @@
+/* common rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+  ;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+/* debug section */
+.debug #header-top {
+  height: 100px;
+  background-color:#e0ffcd;
+}
+
+.debug #header-bottom {
+  height: 500px;
+  background-color:#fdffcd;
+}
+
+.debug nav {
+  height: 60px;
+  background-color:#ffebbb;
+}
+
+.debug #aside-left {
+  height: 500px;
+  background-color:#ffebbb;
+}
+
+.debug article {
+  height: 500px;
+  background-color:#ffebbb;
+}
+
+.debug #aside-right {
+  height: 500px;
+  background-color:#ffebbb;
+}
+
+.debug footer {
+  height: 50px;
+  background-color:#ffcab0;
+}
+
+/* header - header top */
+#header-top { 
+  width: 80%;
+  margin: 20px auto;
+}
+
+/* header - header bottom */
+#header-bottom {
+  width: 80%;
+  margin: 0 auto 20px auto;
+}
+
+/* main */
+main {
+  width: 80%;
+  background-color: #fcda8d;
+  margin: 0 auto 20px auto;
+}
+
+/* main - nav */
+nav {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* main - aside left */
+#aside-left {
+  width: 20%;
+  float: left;
+}
+
+/* main - central article */
+article {
+  width: 56%;
+  float: left;
+  margin: 0 2%;
+}
+
+/* main - aside right */
+#aside-right {
+  width: 20%;
+  float: left;
+}
+
+/* footer */
+footer {
+  width: 80%;
+  margin: 0 auto 20px auto;
+}
