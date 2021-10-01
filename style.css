@@ -4,8 +4,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
   color: grey;
+  font-size: 15px;
 }
 
 .clearfix::after {
@@ -30,12 +30,12 @@
 .debug #header-bottom {
   height: 450px;
   background-color:#fdffcd;
-} */
+}
 
-.debug main nav {
+.debug main section {
   height: 60px;
   background-color:#ffebbb;
-}
+} */
 
 .debug #aside-left {
   height: 500px;
@@ -110,20 +110,28 @@ nav li a {
   width: 55%;
   padding-left: 50px;
   color: white;
-  font-size: 15px;
 }
 
 /* main */
 main {
   width: 80%;
-  background-color: #fcda8d;
   margin: 0 auto 20px auto;
 }
 
-/* main - nav */
-main nav {
+/* main - section */
+main section {
   width: 100%;
   margin-bottom: 20px;
+}
+
+section h1 {
+  line-height: 40px;
+  font-size: 30px;
+  color: black;
+}
+
+section span {
+  line-height: 20px;
 }
 
 /* main - aside left */
